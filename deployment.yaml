@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: hello-world-pod
-        image: arungupta/helloworld-spring-boot:latest
+        image: harbor-repo.vmware.com/jranz/helloworld@sha256:fa5064feaa7e47790c906be48e773dddfd4d3ecd30ce55fbf0ce5976c1e4d423
         ports: 
         - containerPort: 80
         - containerPort: 443
